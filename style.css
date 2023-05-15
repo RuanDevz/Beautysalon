@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+   background-color: #f9f9f9;
+   overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    padding: 25px 0px;
+}
+
+header h1{
+    text-align: center;
+    font-size: 21px;
+}
+
+header span{
+    color:#A052EF ;
+}
+
+.fa-bars{
+    font-size: 21px;
+    color: #A052EF;
+    cursor: pointer;
+}
+
+.beauty-imagem{
+    padding: 55px 0px;
+}
+
+.beauty-start img{
+    z-index: 3;
+    position: relative;
+}
+
+.shadow{
+    position: absolute;
+    top: 13%;
+    left: 12%;
+    width: 348px;
+    height: 242px;
+    background-color: #a052ef48;
+    z-index: 0;;
+}
+
+.beauty-apresentation{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px
+}
+.beauty-apresentation h1{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.beauty-apresentation p{
+    color: #767676;
+    text-align: center;
+}
+
+.btn-agendar{
+    display: flex;
+    justify-content: center;
+    padding: 35px 0px 100px 0px;
+}
+
+.btn-agendar button{
+    padding: 14px 32px 15px;
+    border: none;
+    color: white;
+    background-color: #A052EF;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.shadow-about{
+    width: 245px;
+    height: 20px;
+    background-color: #a052ef48;
+}
+
+.beauty-img img{
+    padding-bottom: 40px;
+}
+
+.about{
+    text-align: justify;
+    padding: 0px 15px;
+    padding-bottom: 35px;
+}
+.about p{
+    text-align: justify;
+    color: #767676;
+    margin: 15px 0px;
+    line-height: 1.5em;
+}
+
+.beauty-services{
+    background-color: #f9f9f9;
+}
+
+.about-services{
+    padding: 0px 15px;
+}
+
+.about-services h1{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.about-services p{
+    font-size: 20px;
+    color: #767676;
+    padding-bottom: 60px;
+}
+
+.about-services span{
+    color: #A052EF;
+}
+
+#services img{
+    color: #A052EF;
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    width: 100px;
+}
+
+#services{
+    text-align: center;
+    width: 327px;
+    height: 372px;
+    display: block;
+    margin: 30px auto;
+    padding: 0px 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.41);
+    box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.41);
+    border-bottom: 5px solid #A052EF;
+
+}
+
+#services h2{
+    padding: 10px 0px;
+}
+#services p{
+    color: #767676;
+}
+
+.beauty-depoiments h1{
+    text-align: center;
+    padding: 100px 0px;
+}
+.beauty-depoiments p {
+    padding: 0px 20px;
+    color: #767676;
+}
+
+.beauty-user{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 0px;
+    margin-left: 20px;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.contaier_coment p{
+    padding-top: 40px;
+}
+
+p#user{
+    padding: 0;
+}
+
+.contaier_coment{
+    display: block;
+    margin: 0 auto;
+    width: 327px;
+    height: 302px;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px -1px 78px -41px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 78px -41px rgba(0,0,0,0.75);
+    box-shadow: -1px -1px 78px -41px rgba(0,0,0,0.75);
+}
+
+.beauty-footerfirst h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.beauty-footerfirst p{
+    text-align: center;
+    color: #767676;
+    padding-bottom: 30px;
+}
+
+.footer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-btn button{
+    padding: 14px 32px 15px;
+    border: none;
+    color: #f9f9f9;
+    background-color: #A052EF;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.fa-whatsapp{
+    font-size: 1.5em;
+    position: relative;
+    transform: translate(-47%,11%);
+}
