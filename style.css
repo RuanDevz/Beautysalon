@@ -39,6 +39,10 @@ header span{
     padding: 55px 0px;
 }
 
+.beauty-imagem img{
+    margin-left: 8px;
+}
+
 .beauty-start img{
     z-index: 3;
     position: relative;
@@ -208,30 +212,43 @@ p#user{
     box-shadow: -1px -1px 78px -41px rgba(0,0,0,0.75);
 }
 
-.beauty-footerfirst h1{
-    text-align: center;
+
+.beauty-footerfirst{
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
+    padding: 0px 15px;
+    color: #767676;
     padding-bottom: 30px;
 }
 
-.beauty-footerfirst p{
-    text-align: center;
-    color: #767676;
+.beauty-footerfirst h1{
+    text-align: left;
+    color: black;
     padding-bottom: 30px;
+    font-size: 2em;
+}
+
+.beauty-titles p{
+    text-align: left;
+    padding-bottom: 20px;
 }
 
 .footer-btn{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 .footer-btn button{
-    padding: 14px 32px 15px;
+    padding: 20px 25px;
     border: none;
     color: #f9f9f9;
     background-color: #A052EF;
     border-radius: 5px;
     font-size: 1em;
+    margin-right: 95px;
 }
 
 .fa-whatsapp{
@@ -239,3 +256,39 @@ p#user{
     position: relative;
     transform: translate(-47%,11%);
 }
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0px;
+}
+
+.beauty-footersegund{
+    background-color: #A052EF;
+}
+
+.beauty-footersegund h1{
+    padding: 50px 20px;
+}
+
+.beauty-footersegund span{
+    color: white;
+}
+
+.beauty-footersegund p{
+    color: #f9f9f9d8;
+    padding: 7px 20px;
+}
+
+.beauty-socialmedia{
+    display: flex;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
